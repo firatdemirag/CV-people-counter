@@ -20,3 +20,9 @@ The system provides real-time data on the number of people in the area.
 - Python 3
 - Anaconda Spyder
 - OpenCV, NumPy, SciPy, YOLOv3 model weights
+
+## Building
+
+## Installation
+
+## Usage
