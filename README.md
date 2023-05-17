@@ -26,3 +26,9 @@ The system provides real-time data on the number of people in the area.
 ## Installation
 
 ## Usage
+
+For help and to see other arguments, --help or -h
+
+```
+python cv-people-counter.py --help
+```
