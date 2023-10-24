@@ -55,8 +55,3 @@ For help and to see other arguments, `--help` or `-h`:
 python cv-people-counter.py --help
 ```
 
-## Acknowledgements
-
-This project is an improvement/modification to https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/.
-
-
