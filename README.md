@@ -25,6 +25,27 @@ The system provides real-time data on the number of people in the area.
 
 ## Installation
 
+> [!NOTE]
+> Ensure that you have `Python` and `pip` installed on your system.
+
+- To begin, install all the necessary Python dependencies by executing the following command:
+
+```
+pip install -r requirements.txt
+```
+ 
+- To run inference on a test video file, navigate to the root directory of the project and run the following command:
+
+```
+python cv-people-counter.py --prototxt detector/MobileNetSSD_deploy.prototxt --model detector/MobileNetSSD_deploy.caffemodel --input utils/test_1.mp4
+```
+
+- To run inference on a webcam, set `"url": 0` in `utils/config.json` and run the following command:
+
+```
+python cv-people-counter.py --prototxt detector/MobileNetSSD_deploy.prototxt --model detector/MobileNetSSD_deploy.caffemodel
+```
+
 ## Usage
 
 For help and to see other arguments, --help or -h
