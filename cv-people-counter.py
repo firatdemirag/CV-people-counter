@@ -1,21 +1,16 @@
 from tracker.centroid_tracker import CentroidTracker
 from tracker.trackable_object import TrackableObject
 from imutils.video import VideoStream
-from itertools import zip_longest
-from utils.mailer import Mailer
 from imutils.video import FPS
 from utils import thread
 import numpy as np
 import threading
 import argparse
 import datetime
-import schedule
-import logging
 import imutils
 import time
 import dlib
 import json
-import csv
 import cv2
 
 
