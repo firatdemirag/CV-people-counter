@@ -25,9 +25,9 @@ with open("utils/config.json", "r") as file:
 def parse_arguments():
 	# function to parse the arguments
     parser = argparse.ArgumentParser(description='CV People Counter', add_help=False)
-	parser.add_argument("--help", "-h", action="help",
-		help="show this help message and exit")
-	parser.add_argument("-p", "--prototxt", required=False,
+    parser.add_argument("--help", "-h", action="help",
+	help="show this help message and exit")
+    parser.add_argument("-p", "--prototxt", required=False,
         help="path to Caffe 'deploy' prototxt file")
     parser.add_argument("-m", "--model", required=True,
         help="path to Caffe pre-trained model")
@@ -45,7 +45,7 @@ def parse_arguments():
 
 
 def people_counter():
-	# main function for people_counter.py
+	# main function for cv-people-counter.py
 	args = parse_arguments()
 	# initialize the list of class labels MobileNet SSD was trained to detect
 	CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
