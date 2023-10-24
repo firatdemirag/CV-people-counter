@@ -19,28 +19,29 @@ The system provides real-time data on the number of people in the area.
 
 - Python 3
 - Anaconda Spyder
-- OpenCV, NumPy, SciPy, YOLOv3 model weights
-
-## Building
+- OpenCV, NumPy, SciPy, MobileNet SSD
 
 ## Installation
 
 > [!NOTE]
 > Ensure that you have `Python` and `pip` installed on your system.
+<br />
 
-- To begin, install all the necessary Python dependencies by executing the following command:
+To begin, install all the necessary Python dependencies by executing the following command:
 
 ```
 pip install -r requirements.txt
 ```
+<br />
  
-- To run inference on a test video file, navigate to the root directory of the project and run the following command:
+To run inference on a test video file, navigate to the root directory of the project and run the following command:
 
 ```
 python cv-people-counter.py --prototxt detector/MobileNetSSD_deploy.prototxt --model detector/MobileNetSSD_deploy.caffemodel --input utils/test_1.mp4
 ```
+<br />
 
-- To run inference on a webcam, set `"url": 0` in `utils/config.json` and run the following command:
+To run inference on a webcam, set `"url": 0` in `utils/config.json` and run the following command:
 
 ```
 python cv-people-counter.py --prototxt detector/MobileNetSSD_deploy.prototxt --model detector/MobileNetSSD_deploy.caffemodel
@@ -48,8 +49,14 @@ python cv-people-counter.py --prototxt detector/MobileNetSSD_deploy.prototxt --m
 
 ## Usage
 
-For help and to see other arguments, --help or -h
+For help and to see other arguments, `--help` or `-h`:
 
 ```
 python cv-people-counter.py --help
 ```
+
+## Acknowledgements
+
+This project is an improvement/modification to https://www.pyimagesearch.com/2018/08/13/opencv-people-counter/.
+
+
