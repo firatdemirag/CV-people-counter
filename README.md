@@ -17,8 +17,8 @@ The system provides real-time data on the number of people in the area.
 
 ## Software Requirements
 
-- Python 3
-- Anaconda Spyder
+- Python
+- Visual Studio Code
 - OpenCV, NumPy, SciPy, MobileNet SSD
 
 ## Installation
