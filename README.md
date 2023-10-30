@@ -24,7 +24,7 @@ The system provides real-time data on the number of people in the area.
 ## Installation
 
 > [!NOTE]
-> Ensure that you have `Python` and `pip` installed on your system.
+> Ensure that you have supported `Python` version 3.11.3 and `pip` installed on your system.
 <br />
 
 To begin, install all the necessary Python dependencies by executing the following command:
