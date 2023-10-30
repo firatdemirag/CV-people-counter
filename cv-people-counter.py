@@ -302,7 +302,7 @@ def people_counter():
 		totalFrames += 1
 		fps.update()
 
-	# release the camera device/resource (issue 15)
+	
 	if config["Thread"]:
 		vs.release()
 
