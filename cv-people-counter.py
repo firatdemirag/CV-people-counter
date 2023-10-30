@@ -248,7 +248,7 @@ def people_counter():
 						date_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 						move_in.append(totalDown)
 						in_time.append(date_time)
-						# if the people limit exceeds over threshold, send an email alert
+						# if the people limit exceeds over threshold, alert
 						if sum(total) >= config["Threshold"]:
 							cv2.putText(frame, "-ALERT: People limit exceeded-", (10, frame.shape[0] - 80),
 								cv2.FONT_HERSHEY_COMPLEX, 0.5, (0, 0, 255), 2)
