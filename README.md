@@ -18,7 +18,7 @@ The system provides real-time data on the number of people in the area.
 ## Software Requirements
 
 - Python
-- Visual Studio Code
+- PyCharm IDE
 - OpenCV, NumPy, SciPy, MobileNet SSD
 
 ## Installation
